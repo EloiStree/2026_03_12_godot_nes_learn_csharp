@@ -1,3 +1,21 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+.mono/
+.vs/
+*.csproj
+*.sln
+obj/
+bin/
+*.dll
+*.pdb
+
+# C# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+export/

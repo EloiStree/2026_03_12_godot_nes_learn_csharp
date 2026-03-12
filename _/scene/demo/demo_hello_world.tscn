@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhkvq7g5kimv6"]
+
+[ext_resource type="Script" uid="uid://dov2jan8kr26t" path="res://_/script/cs/LearnCs_HelloWorld.cs" id="1_4uwst"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="NodeHelloWorld" type="Node" parent="."]
+script = ExtResource("1_4uwst")
